@@ -8,6 +8,19 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<form action="/submit" method="POST" attribute="value">
+		<label for="name">Name</label>
+		<input type="text" id="name" name="name" minlength="3" maxlength="50" required>
+         <br>
+		<label for="portfolio">Portfolio</label>
+		<input type="url" id="portfolio" name="portfolio" required>
+         <br>
+		<label for="favColor">Favorite Color</label>
+		<input type="color" id="favColor" name="Favorite Color">
+		 <br>
+		<label for="likeness">Favorite Color</label>
+		<input type="range" id="likeness" name="likeness" minlength="1" maxlength="100"  >
+	</form>
     <script type="text/javascript" src="./script.js">
 </script>
 
